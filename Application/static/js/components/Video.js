@@ -1,6 +1,6 @@
 import React from 'react'
 import {ResponsiveEmbed} from 'react-bootstrap';
-import VideoOverlay from './VideoOverlay'
+import VideoOverlay from '../containers/VideoOverlay'
 
 const VideoContainer = {
   position: 'relative',

@@ -5,21 +5,32 @@ const header = {
   marginTop: '0px'
 }
 
+const scrollOffset = 50
+
 export class Header extends React.Component {
   constructor(props) {
     super(props);
   }
 
   scrollToRepair() {
-    this.props.scrollRef.repairRef.scrollIntoView({behavior: 'smooth', block: 'start'});
+    window.scroll({
+      top: this.props.scrollRef.repairRef.offsetTop - scrollOffset,
+      behavior: 'smooth'
+    });
   }
 
   scrollToCarousal() {
-    this.props.scrollRef.carousalRef.scrollIntoView({behavior: 'smooth', block: 'start'});
+    window.scroll({
+      top: this.props.scrollRef.carousalRef.offsetTop - scrollOffset,
+      behavior: 'smooth'
+    });
   }
 
   scrollToMap() {
-    this.props.scrollRef.mapRef.scrollIntoView({behavior: 'smooth', block: 'start'});
+    window.scroll({
+      top: this.props.scrollRef.mapRef.offsetTop - scrollOffset,
+      behavior: 'smooth'
+    });
   }
 
   render() {

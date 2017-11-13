@@ -12,7 +12,7 @@ const FooterLegal = () => (
     </p>
     <ul className="list-inline">
        <li>
-          <p className="copyright text"> © Uboston Auto School</p>
+          <p className="copyright text"> © Prospect auto</p>
        </li>
        <li className="footer-menu-divider">&sdot;</li>
        <li>

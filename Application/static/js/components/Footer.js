@@ -7,7 +7,8 @@ import FooterLegal from './FooterLegal'
 const footer = {
   background: '#383939',
   color: 'rgba(255,255,255,.6)',
-  paddingBottom: '50px'
+  paddingBottom: '50px',
+  clear: 'both'
 }
 
 const style = {
@@ -41,7 +42,7 @@ const AppFooter = () => (
         </Col>
       </Row>
     </Grid>
-    </footer>
+  </footer>
 )
 
 export default AppFooter

@@ -9,19 +9,19 @@ const FooterSocialIcon = () => (
         <div className="col-lg-12">
             <ul className="list-inline">
                 <li>
-                    <img className="social-icon" src="static/img/twitter.svg" /><a href="https://www.python.org/">   Twitter</a>
+                    <img className="social-icon" src="static/img/twitter.svg" /><a href="#">   Twitter</a>
                 </li>
                 <li className="footer-menu-divider">&sdot;</li>
                 <li>
-                    <img className="social-icon"  src="static/img/facebook.svg" /><a href="https://www.docker.com/">   Facebook</a>
+                    <img className="social-icon"  src="static/img/facebook.svg" /><a href="#">   Facebook</a>
                 </li>
                 <li className="footer-menu-divider">&sdot;</li>
                 <li>
-                    <img className="social-icon"  src="../static/img/yelp.svg" /><a href="https://www.yelp.com/developers/documentation/v2/overview">   Yelp </a>
+                    <img className="social-icon"  src="../static/img/yelp.svg" /><a href="#">   Yelp </a>
                 </li>
                 <li className="footer-menu-divider">&sdot;</li>
                 <li>
-                    <img className="social-icon" src="../static/img/instagram.svg" /><a id="bootstraplink" href="http://getbootstrap.com/">  Instagram </a>
+                    <img className="social-icon" src="../static/img/instagram.svg" /><a id="bootstraplink" href="#">  Instagram </a>
                 </li>
             </ul>
         </div> 

@@ -20,7 +20,7 @@ export class TestCarousel extends React.Component {
             <Carousel.Item>
               <img width={2000} height={401} alt="900x500" src="static/img/carousel1.jpg"/>
               <Carousel.Caption>
-                <h3>Specialize in auto repair</h3>
+                <h3>We specialized in auto repair</h3>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,7 +32,7 @@ export class TestCarousel extends React.Component {
             <Carousel.Item>
               <img width={2000} height={401} alt="900x500" src="static/img/carousel3.jpg"/>
               <Carousel.Caption>
-                <h3>Master Su has 21 car repair experience.</h3>
+                <h3>Master Su has 21 years car repair experience.</h3>
               </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

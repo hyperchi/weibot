@@ -49,35 +49,36 @@ class ContactInfo extends React.Component {
   render() {
     return (
       <div style={rightPaneStyle}>
-        <div style={textStyle}>
           <div style={tableStyle}>
-            <h4>HOURS</h4>
-            <span>MON-SUN &nbsp; 08:00-18:00 </span>
-          </div>
-          <br />
-          <div style={tableStyle}>
-            <h4>CONTACT US (Prospect Auto)</h4>
-          </div>
-          <table style={tableStyle}>
-            <tbody>
-              <tr style={trStyle}>
-                <td style={tdStyle}>Phone: </td>
-                <td style={tdStyle}>617-354-2300</td>
-              </tr>
-              <tr style={trStyle}>
-                <td style={tdStyle}>Email: </td>
-                <td style={tdStyle}>harvardAuto@gmail.com</td>
-              </tr>
-              <tr style={trStyle}>
-                <td style={tdStyle}>Address: </td>
-                <td style={tdStyle}>247 Prospect St. Cambridge, MA</td>
-              </tr>
-            </tbody>
-          </table>
+              <h4>CONTACT US (Prospect Auto)</h4>
+              <table style={tableStyle}>
+                <tbody>
+                  <tr style={trStyle}>
+                    <td style={tdStyle}>Weekday </td>
+                    <td style={tdStyle}>8am-6pm Saturday 9am-3pm</td>
+                  </tr>
+                  <tr style={trStyle}>
+                    <td style={tdStyle}>Sunday </td>
+                    <td style={tdStyle}>Closed</td>
+                  </tr>
+                  <tr style={trStyle}>
+                    <td style={tdStyle}>Phone: </td>
+                    <td style={tdStyle}>617-354-2300</td>
+                  </tr>
+                  <tr style={trStyle}>
+                    <td style={tdStyle}>Email: </td>
+                    <td style={tdStyle}>harvardAuto@gmail.com</td>
+                  </tr>
+                  <tr style={trStyle}>
+                    <td style={tdStyle}>Address: </td>
+                    <td style={tdStyle}>247 Prospect St. Cambridge, MA</td>
+                  </tr>
+                </tbody>
+              </table>
         </div>
         <div  style={imgGrid}>
-          <Image  style={imgStyle} src="static/img/公众号二维码.jpg" alt="135x135" />
-          <Image  style={imgStyle} src="static/img/微信客服二维码.png" alt="135x135" />
+          <Image  style={imgStyle} src="static/img/公众号二维码.jpg" alt="110x110" />
+          <Image  style={imgStyle} src="static/img/微信客服二维码.png" alt="110x110" />
         </div>
       </div>
     )

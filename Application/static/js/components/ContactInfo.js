@@ -51,32 +51,30 @@ class ContactInfo extends React.Component {
       <div style={rightPaneStyle}>
           <div style={tableStyle}>
               <h4>CONTACT US (Prospect Auto)</h4>
-          </div>
-        <div style={textStyle}>
-          <table style={tableStyle}>
-            <tbody>
-              <tr style={trStyle}>
-                <td style={tdStyle}>Weekday </td>
-                <td style={tdStyle}>8am-6pm Saturday 9am-3pm</td>
-              </tr>
-              <tr style={trStyle}>
-                <td style={tdStyle}>Sunday </td>
-                <td style={tdStyle}>Closed</td>
-              </tr>
-              <tr style={trStyle}>
-                <td style={tdStyle}>Phone: </td>
-                <td style={tdStyle}>617-354-2300</td>
-              </tr>
-              <tr style={trStyle}>
-                <td style={tdStyle}>Email: </td>
-                <td style={tdStyle}>harvardAuto@gmail.com</td>
-              </tr>
-              <tr style={trStyle}>
-                <td style={tdStyle}>Address: </td>
-                <td style={tdStyle}>247 Prospect St. Cambridge, MA</td>
-              </tr>
-            </tbody>
-          </table>
+              <table style={tableStyle}>
+                <tbody>
+                  <tr style={trStyle}>
+                    <td style={tdStyle}>Weekday </td>
+                    <td style={tdStyle}>8am-6pm Saturday 9am-3pm</td>
+                  </tr>
+                  <tr style={trStyle}>
+                    <td style={tdStyle}>Sunday </td>
+                    <td style={tdStyle}>Closed</td>
+                  </tr>
+                  <tr style={trStyle}>
+                    <td style={tdStyle}>Phone: </td>
+                    <td style={tdStyle}>617-354-2300</td>
+                  </tr>
+                  <tr style={trStyle}>
+                    <td style={tdStyle}>Email: </td>
+                    <td style={tdStyle}>harvardAuto@gmail.com</td>
+                  </tr>
+                  <tr style={trStyle}>
+                    <td style={tdStyle}>Address: </td>
+                    <td style={tdStyle}>247 Prospect St. Cambridge, MA</td>
+                  </tr>
+                </tbody>
+              </table>
         </div>
         <div  style={imgGrid}>
           <Image  style={imgStyle} src="static/img/公众号二维码.jpg" alt="110x110" />

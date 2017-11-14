@@ -29,7 +29,7 @@ const AppFooter = () => (
     <Grid style={style}>
       <Row>
         <Col xs={12} md={12}>
-          <h3 style={brandLabal}> Harvard Auto Schools
+          <h3 style={brandLabal}> Harvard Auto Schools(三友车行)
           </h3>
         </Col>
       </Row>
